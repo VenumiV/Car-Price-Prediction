@@ -1,13 +1,23 @@
-# Car-Price-Prediction
+# Try Jupyter, powered by JupyterLite
 
-Used Car Price Prediction in Sri Lanka
-This project is a machine learning-based system designed to predict the price of used vehicles in Sri Lanka. With many brands and models available in the second-hand market, pricing can often be inconsistent. This tool helps buyers and sellers estimate a fair market value based on real data.
+[![lite-badge](https://jupyterlite.rtfd.io/en/latest/_static/badge.svg)](https://jupyter.org/try-jupyter)
 
-The model takes key car details such as brand, model, year of manufacture, engine capacity, gear type, and fuel type as input. These details are processed and converted into numerical form using label encoding, making them suitable for machine learning.
+A tour of Jupyter and IPython, powered by JupyterLite.
 
-A regression algorithm (like Random Forest or Linear Regression) is trained on a dataset of nearly 10,000 used vehicle listings from Sri Lanka. This allows the model to learn how various features influence car prices and make accurate predictions.
+## ✨ Try it in your browser ✨
 
-The web application is built using Streamlit, providing a simple and interactive interface. Users can enter vehicle details and get an instant estimated price.
+➡️ **https://jupyter.org/try-jupyter**
 
-This tool is especially useful for individuals looking to buy or sell used cars, helping them make informed and fair pricing decisions in the local market.
+Clicking the link above should load a JupyterLab environment running in your browser. Open the Introductory notebook at `notebooks/Intro.ipynb` to get started.
 
+## About this repository
+
+This is a demonstration repository meant for use at `try.jupyter.org`. It uses the [JupyterLite project](https://jupyterlite.readthedocs.io/en/latest/) to embed a self-contained Jupyter environment in the browser, along with many popular packages in scientific computing.
+
+It uses GitHub pages to serve the JupyterLite bundle, and is accessible at https://jupyter.org/try-jupyter.
+
+### How to edit these notebooks
+
+The notebooks in this repository are written with [JupyterLite kernels](https://jupyterlite.readthedocs.io/en/latest/kernels/index.html), so if you edit them locally, you will likely over-write the kernel information with your local kernels.
+As such, the easiest way to make edits to them is to do so [**via the Try Jupyter Page**](https://jupyter.org/try-jupyter).
+Make the edits you wish at that URL, then download the notebook and replace the one in a repository locally.
